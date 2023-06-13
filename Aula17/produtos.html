@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="imagens/icon.jpg">
+	<title>Produtos</title>
+</head>
+
+<body>
+	<header>
+		<div class="cabecalho">
+			<div class="titulo"><h1>Materias de construção minecraft</h1></div>
+			<div>
+				<form id="pesquisa" method="get">
+				<h4><label for="tPesquisa">Pesquisar: </label><input type="text" name="tPesquisa" id="cPesquisa" size="20" maxlength="50"><input type="submit" name="bSub" id="cSub" value="Enviar"></h4>
+				</form>
+			</div>
+	</div>
+	<div>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Página Principal</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+<main  class="container">
+		<section>
+			<table>
+				<tr><td colspan="5"><h2>FERRAMENTAS</h2></td><tr>
+				<tr>
+				<td><a href=""><figure><img class="fotos" src="imagens/fr1.webp"><figcaption> Martelo</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/fr2.jpg"><figcaption>Colher</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/fr3.jpg"><figcaption>Capacete</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/fr4.webp"><figcaption>Cegueta</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/fr5.webp"><figcaption>Trena</figcaption></figure></a></td>
+				</tr>
+
+				<tr><td colspan="5"><h2>Materiais em Alta</h2></td><tr>
+				<tr>
+				<td><a href=""><figure><img class="fotos" src="imagens/mt1.jpg"><figcaption>Tijolão</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/mt2.webp"><figcaption>Tijolinho</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/mt3.jpg"><figcaption>Tinta Branca</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/mt4.webp"><figcaption>Pisso Branco</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/mt5.jpg"><figcaption>Revestimento Pedra</figcaption></figure></a></td>
+				</tr>
+
+				<tr><td colspan="5"><h2>Produtos em saco ou caminhão</h2></td>
+				<tr>
+				<td><a href=""><figure><img class="fotos" src="imagens/sc1.png"><figcaption>Areia</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/sc2.webp"><figcaption>Argamassa</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/sc3.jpg"><figcaption>Cimento</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/sc4.webp"><figcaption>Gesso</figcaption></figure></a></td>
+				<td><a href=""><figure><img class="fotos" src="imagens/sc5.webp"><figcaption>Brita</figcaption></figure></a></td>
+				</tr>
+			</table>
+		</section>
+</main>
+
+
+<footer>
+	<h2>FAÇA O SEU ORÇAMENTO!</h2>
+	<form method="post" align="center" action="mailto:minecraftmateriais@gmail.com">
+    		<label for="nome">Nome:</label>
+    		<input type="text" size="40" name="nome" id="nome" maxlength="30" placeholder="Seu nome completo" required>
+    		<label for="email">Email:</label>
+    		<input type="email" size="40" name="email" id="email" maxlength="30" placeholder="seu e mail" required>
+    		<br><label for="telefone">Telefone:</label>
+    		<input type="tel"  size="25" name="telefone" id="telefone" maxlength="10" placeholder="(DDD)90000-0000" required>
+  			<div align="center"><br><label for="mensagem">Produtos desejados:</label>
+    		<br><textarea cols="110" rows="3" id="mensagem" placeholder="Informe os produtos e a quantidade" name="mensagem" required></textarea>
+    		<br><input id="rodape" type="submit" value="Enviar"></div>
+	</form>
+		<address>
+			<h3> Material de Construção minecraft&copy;. Av. central do centro, 123 - Centrão. Centralina/GO</h3>
+		</address>
+</footer>
+</body>
+</html>
